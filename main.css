@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  transition: 0.3s;
+}
+body {
+  background-color: #2c2c2c;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#madeby {
+  color: #c5c5c5;
+  transition: 0.8s;
+}
+#madeby:hover {
+  color: #2c2c2c;
+}
+.link-side {
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #222222;
+  border-radius: 24px;
+  border: #989898 2px solid;
+}
+.lessons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lessons ul li a {
+  color: #b9c3c5;
+  padding: 0 80px 0 80px;
+  background-color: #353535;
+  border-radius: 50px;
+  font-size: 18px;
+}
+.lessons ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.lessons ul li {
+  margin-bottom: 20px;
+}
+.lessons ul:first-child {
+  margin-top: 10px;
+}
+.lessons ul li a:hover {
+  background-color: #2b2b2b;
+}
+#pazartesi-link,
+#sali-link,
+#carsamba-link,
+#persembe-link,
+#cuma-link,
+#cumartesi-link,
+#pazar-link {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#pazartesi-link h2,
+#sali-link h2,
+#carsamba-link h2,
+#persembe-link h2,
+#cuma-link h2,
+#cumartesi-link h2,
+#pazar-link h2 {
+  color: #c5c5c5;
+  font-size: 30px;
+  margin-top: 10px;
+}
+#pazartesi-link h3,
+#sali-link h3,
+#carsamba-link h3,
+#persembe-link h3,
+#cuma-link h3,
+#cumartesi-link h3,
+#pazar-link h3 {
+  color: #c7c7c7;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 6px;
+}
+
+.lesson-times {
+  color: #c5c5c5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.lesson {
+  display: flex;
+  width: 250px;
+}
